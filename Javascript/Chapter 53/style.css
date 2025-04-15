@@ -1,0 +1,38 @@
+/* .hidden {
+    display: none !important;
+}
+
+.showThing {
+    display: block !important;
+} */
+/* 
+.dark {
+    background-color: #000;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+} */
+.first {
+    /* width: 400px; */
+    width: 400px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.blue-color {
+    background-color: blue;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+

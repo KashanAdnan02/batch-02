@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div class="main"><span id="para">Hi</span><span>Kashan</span></div><span></span>
+    <button onclick="printing()">Print</button>
+
+
+
+    <input type="text" id="input">
+
+    <button onclick="changeInp('1')">1</button>
+    <button onclick="changeInp('2')">2</button>
+    <button onclick="changeInp('3')">3</button>
+    <button onclick="changeInp('4')">4</button>
+    <button onclick="changeInp('5')">5</button>
+    <button onclick="changeInp('6')">6</button>
+    <button onclick="changeInp('7')">7</button>
+    <button onclick="changeInp('8')">8</button>
+    <button onclick="changeInp('9')">9</button>
+    <button onclick="changeInp('0')">0</button>
+    <script src="./script.js"></script>
+</body>
+
+</html> -->
+
+// Target Any Element in the Document
+
+// let container = document.getElementById("container")
+// let main = document.getElementsByClassName("main")
+// let span = document.getElementsByTagName("span")
+// var p = document.childNodes[1].childNodes[1].childNodes[1].firstChild.innerHTML = "Bye";
+// var contents = p.innerHTML;
+
+
+// console.log(p);
+
+
+
+// let para = document.getElementById('para')
+// console.log(para.childNodes);
+// function printing() {
+//     window.print()
+// }
+
+
+// console.log(para.parentNode.style.backgroundColor = "red")
+
+
+
+// let inpAttr = input.hasAttribute('src')
+// console.log(inpAttr);
+// console.log(input.attributes);
+
+
+// input.setAttribute('class' , "input-container")
+
+
+function changeInp(num) {
+    let input = document.getElementById("input")
+    input.value += num
+}

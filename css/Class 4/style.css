@@ -1,0 +1,32 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-decoration: underline wavy red 1px;
+    /* letter-spacing: 30px; */
+    /* word-spacing: 50px; */
+    /* text-align: end; */
+    text-shadow: 2px 1px 2px blue;
+}
+
+p {
+    line-height: 34px
+}
+
+h1::first-letter {
+    color: red;
+}
+
+p::first-line {
+    color: red;
+}
+
+h1:hover {
+    color: chocolate;
+    text-shadow: none;
+}
+
+h1:hover::first-letter {
+    color: aqua;
+}

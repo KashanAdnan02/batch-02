@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* h1 { */
+/* color: #13bf41; */
+/* color: rgba(0, 200, 0, 0.2); */
+/* color: aqua; */
+/* color: darkblue;
+    opacity: 1; */
+/* } */
+
+/*
+     color types
+    hex code  1
+    rgb value
+    colorname
+    rgba red green blue a
+*/
+
+/* div{ */
+/* background-color: #13bf41; */
+/* } */
+
+
+/* @font-face {
+    font-family: 'Kashan';
+    src: url('font.ttf');
+}
+
+h1{
+    font-family: 'Kashan';
+} */
+
+/* h1{ */
+    /* font-size: 200%; */
+/* } */
+
+h1{
+        /* text-transform: capitalize; */
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(250, 117, 0);
+}
